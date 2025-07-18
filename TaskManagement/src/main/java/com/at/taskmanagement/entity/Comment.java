@@ -28,3 +28,4 @@ public class Comment {
     @JoinColumn(name = "task_id")
     private Task task;
 }
+
