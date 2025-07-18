@@ -10,7 +10,6 @@ import java.util.UUID;
 @NoArgsConstructor @AllArgsConstructor
 @Builder
 public class Comment {
-
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
